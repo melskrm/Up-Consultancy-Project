@@ -1,19 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Syne:wght@400..800&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   /*FONT-FAMİLY*/
-  --primary-font: "Plus Jakarta";
-  --secondary-font:"Inter";
+  --primary-font:'Plus Jakarta Sans',sans-serif;
+  --secondary-font:'Inter',sans-serif;
 
   /*FONT-SIZES*/
-  --font-size-s: 8px;
-  --font-size-m: 12px;
-  --font-size-l: 24px;
+  --font-size-s: 15px;
+  --font-size-m: 20px;
+  --font-size-l: 28px;
   --font-size-xl: 36px;
   --font-size-xxl: 58px;
   /*COLORS*/
   --clr-green: #26BB74;
   --clr-black:#000000;
   --clr-white:#FFFFFF;
+  --clr-gray:#C0C0C0;
   
 
 }
