@@ -163,6 +163,7 @@
   flex-direction: column;
   gap: 40px;
   padding: 60px 175px;
+  margin-bottom: 50px;
 }
 .services-content h5 {
   font-family: var(--secondary-font);
@@ -176,12 +177,11 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
-  height: 600px;
   gap: 20px;
 }
 .card {
   background-color: var(--clr-light-gray);
-  padding: 5px 10px;
+  padding: 20px 10px;
   border: 1px solid var(--clr-light-gray);
   border-radius: 10px;
 }
@@ -205,11 +205,12 @@
 }
 
 @media (max-width: 768px) {
+  .services-section {
+    padding: 40px 20px;
+    margin-bottom: 50px;
+  }
   .services-card {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: flex-start; /* Kartları sola yasla */
+    grid-template-columns: 1fr;
   }
   .card {
     height: auto;
@@ -218,14 +219,95 @@
 }
 
 @media (max-width: 480px) {
+  .services-section {
+    padding: 30px 15px;
+    margin-bottom: 30px;
+  }
   .services-card {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: flex-start;
+    grid-template-columns: 1fr;
+    gap: 15px;
   }
   .card {
-   width: 100%;
-   height: auto;
+    width: 100%;
+    height: auto;
+  }
+}
+/*services section end*/
+
+/*why us section start */
+
+.why-us-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  width: 100%;
+  padding: 50px 175px;
+}
+.why-us-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.why-us-title h5 {
+  color: var(--clr-green);
+  padding: 10px 160px;
+  font-family: var(--secondary-font);
+  font-weight: 500;
+}
+.why-us-title h2 {
+  font-family: var(--primary-font);
+  font-weight: 700;
+}
+.why-us-description {
+  color: var(--clr-gray);
+
+  height: auto;
+  font-family: var(--secondary-font);
+}
+.why-us-numbers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  width: 100%;
+}
+
+.why-us-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--secondary-font);
+  color: var(--clr-gray);
+}
+
+.why-us-value {
+  padding: 5px;
+  color: var(--clr-green);
+  font-weight: 700;
+  font-size: var(--font-size-l);
+  font-family: var(--primary-font);
+  line-height: 100%;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .why-us-section {
+    padding: 30px 15px;
+    margin-top: 50px;
+  }
+  .why-us-numbers {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .why-us-section {
+    padding: 20px 10px;
+    margin-top: 50px;
+  }
+  .why-us-numbers {
+    gap: 15px;
   }
 }
