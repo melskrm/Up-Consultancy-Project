@@ -322,7 +322,6 @@
   width: 100%;
   height: auto;
   align-items: center;
- 
 }
 .features-header {
   display: flex;
@@ -350,14 +349,14 @@
   align-items: center;
   justify-content: flex-start;
 }
-.features-main-img{
+.features-main-img {
   width: 550px;
   height: 450px;
   padding: 5px 10px;
 }
 .features-cards {
   display: grid;
-  grid-template-rows: repeat(3,1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 50px;
   width: 100%;
 }
@@ -391,45 +390,98 @@
 }
 
 @media (max-width: 768px) {
-  .features-section{
+  .features-section {
     display: flex;
     flex-direction: column;
     gap: 20px;
-  
   }
 
   .features-content {
     display: flex;
     flex-direction: column;
-  gap: 25px;
-   
-
-}
- 
+    gap: 25px;
+  }
 
   .features-main-img {
-    order: -1; 
+    order: -1;
   }
 }
 
 @media (max-width: 480px) {
- .features-section{
+  .features-section {
     display: flex;
     flex-direction: column;
     gap: 10px;
-  
   }
 
   .features-content {
     display: flex;
     flex-direction: column;
-  gap: 15px;
-   
+    gap: 15px;
+  }
 
+  .features-main-img {
+    order: -1;
+  }
 }
- 
+/*features section end */
 
- .features-main-img{
-    order: -1; 
+/* more features section start */
+.more-features-section{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-around;
+  width: 100%;
+  padding: 70px 30px;
+}
+.more-features-img{
+  width: 550px;
+  height: 550px;
+}
+.more-features-content{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding : 50px 20px
+}
+.more-features-content h5{
+  font-family: var(--secondary-font);
+  color: var(--clr-green);
+}
+.more-features-content h2{
+  font-family: var(--primary-font);
+  color: var(--clr-black);
+}
+.more-features-content p{
+  display: block;
+  font-family: var(--secondary-font);
+  color: var(--clr-light-dark);
+}
+.more-features-content-btn{
+    color: var(--clr-white);
+  background-color: var(--clr-green);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: var(--font-size-s);
+  font-family: var(--secondary-font);
+  width: 120px;
+  height: 50px;
+  white-space: nowrap;
+}
+@media (max-width: 768px) {
+  .more-features-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .more-features-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 }
