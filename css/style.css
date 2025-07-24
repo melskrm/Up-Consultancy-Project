@@ -682,6 +682,6 @@
 }
 
 .question.active .content {
-  height: 50px;
+  height: 100px;
   opacity: 1;
 }
