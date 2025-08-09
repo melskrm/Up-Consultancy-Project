@@ -1,0 +1,102 @@
+/*services navbar start*/
+.navbar-services-btn-active {
+  color: var(--clr-green);
+}
+/*services navbar end*/
+
+/* detailed services section start */
+
+.detailed-services-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px 60px;
+}
+
+.detailed-services-section-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.detailed-services-section-header h5 {
+  color: var(--clr-green);
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--secondary-font);
+}
+.detailed-services-section-header h2 {
+  color: var(--clr-black);
+  font-size: 32px;
+  font-weight: 600;
+  font-family: var(--primary-font);
+  width: 80%;
+}
+
+.detailed-services-section-cards {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 50px;
+padding-top: 20px;
+  width: 100%;
+}
+
+.detailed-services-section-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 100%;
+  height: auto;
+}
+.detailed-services-section-card img{
+
+width: 40%;
+height: auto;
+border-radius: 10px;
+
+}
+.detailed-services-section-card-content img {
+    width: 60px;
+    height: 60px;
+}
+.detailed-services-section-card-content {
+  display: flex;
+  flex-direction: row;
+  
+  gap: 20px;
+}
+.detailed-services-section-card-content span{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.detailed-services-section-card-content span h2{
+  color: var(--clr-black);
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 20px;
+}
+.detailed-services-section-card-content span p{
+  color: var(--clr-light-dark);
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 16px;
+  
+}
+@media (max-width: 768px) {
+ .detailed-services-section-card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .detailed-services-section-card img {
+    width: 100%; 
+    order: 1;
+  }
+   .detailed-services-section-card-content{
+    width: 100%;
+    order: 2;
+   }
+   .detailed-services-section-card-content img{
+    order: 0;
+   }
+}
