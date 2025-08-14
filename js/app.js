@@ -46,3 +46,23 @@ btn.addEventListener("click", function () {
   alert("Mesajınız başarıyla gönderildi!");
 });
 /*services page contact section end*/
+
+
+/*services page newsletter section start*/
+
+const subscribeBtn = document.querySelector(".newsletter-section-btn");
+const subscribeEmailInput = document.querySelector(".newsletter-section-input");
+
+subscribeBtn.addEventListener("click", function (e) {
+  e.preventDefault(); 
+
+  const email = subscribeEmailInput.value.trim();
+
+  if (email === "") {
+    alert("Lütfen e-posta adresinizi girin!");
+    return;
+  }
+  if (!email.includes("@") || !email.includes(".")) {
+    alert("Lütfen geçerli bir e-posta adresi girin!");
+    return;
+  }});
