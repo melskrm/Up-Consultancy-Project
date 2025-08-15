@@ -76,6 +76,9 @@
     display: none;
   }
 }
+.navbar-services-btn-active {
+  color: var(--clr-green);
+}
 /*navbar end */
 
 /* hero section start */

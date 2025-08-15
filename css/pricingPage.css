@@ -1,0 +1,88 @@
+/*detailing pricing section start*/
+
+.detailing-pricing-section {
+  padding: 20px 30px;
+}
+.plans-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding: 30px 20px;
+  width: 100%;
+}
+.plan-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: var(--primary-font);
+}
+.plan-btn {
+  border: 1px solid var(--clr-green);
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: var(--clr-green);
+  background: transparent;
+  font-family: var(--secondary-font);
+
+  font-size: 14px;
+}
+.plan-btn:hover {
+  background: var(--clr-green);
+  color: var(--clr-white);
+}
+
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 30px 30px;
+}
+.compare-table th {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: var(--primary-font);
+}
+.compare-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: var(--secondary-font);
+}
+.compare-table th:first-child,
+.compare-table td:first-child {
+  text-align: left;
+}
+
+.section-row th {
+  background: var(--clr-white);
+  color: var(--clr-green);
+  text-align: left;
+  font-weight: 600;
+  border: none;
+  padding-top: 20px;
+  font-size: 24px;
+  font-family: var(--primary-font);
+}
+
+.yes {
+  color: #21b66f;
+  font-size: 20px;
+}
+.no {
+  color: #d33;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+.plans-header{
+  display: none;
+}
+}
+
+@media (max-width: 520px) {
+  .plans-header{
+  display: none;
+}
+}
