@@ -66,3 +66,11 @@ subscribeBtn.addEventListener("click", function (e) {
     alert("Lütfen geçerli bir e-posta adresi girin!");
     return;
   }});
+
+
+//blog section start
+ const cards = document.querySelectorAll(".all-blog-posts-card");
+const pagination = document.querySelector(".pagination");
+
+
+

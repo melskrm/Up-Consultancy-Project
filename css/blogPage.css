@@ -1,0 +1,135 @@
+.blog-section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    padding: 20px 30px;
+    width: 100%;
+
+}
+.blog-section h3{
+    color: var(--clr-black);
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 20px;
+}
+.blog-section-header{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.blog-section-header h5{
+    color: var(--clr-green);
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: 18px;
+}
+.blog-section-header h2{
+     color: var(--clr-black);
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.recent-blog-list{
+    display: flex;
+    flex-direction: row;
+gap: 30px;
+
+}
+.blog-card{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.blog-card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5px 0;
+}
+.blog-card-content h4{
+    color: var(--clr-green);
+    font-weight: 600;
+    font-size: 15px;
+    font-family: var(--secondary-font);
+
+}
+.blog-card-content h2{
+    color: var(--clr-black);
+    font-weight: 600;
+    font-family: var(--primary-font);
+}
+.blog-card-content p{
+    color: var(--clr-light-dark);
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.recent-blog-list-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.all-blog-posts{
+    display: flex;
+
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 15px;
+}
+
+.all-blog-posts-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.all-blog-posts-card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0;
+}
+.all-blog-posts h4{
+    color: var(--clr-green);
+    font-weight: 600;
+    font-size: 15px;
+    font-family: var(--secondary-font);
+
+}
+.all-blog-posts h2{
+    color: var(--clr-black);
+    font-weight: 600;
+    font-family: var(--primary-font);
+}
+.all-blog-posts-card-content p{
+    color: var(--clr-light-dark);
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.pagination button.active {
+  background-color: #333;
+  color: white;
+}
