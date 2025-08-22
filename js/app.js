@@ -47,14 +47,13 @@ btn.addEventListener("click", function () {
 });
 /*services page contact section end*/
 
-
 /*services page newsletter section start*/
 
 const subscribeBtn = document.querySelector(".newsletter-section-btn");
 const subscribeEmailInput = document.querySelector(".newsletter-section-input");
 
 subscribeBtn.addEventListener("click", function (e) {
-  e.preventDefault(); 
+  e.preventDefault();
 
   const email = subscribeEmailInput.value.trim();
 
@@ -65,12 +64,8 @@ subscribeBtn.addEventListener("click", function (e) {
   if (!email.includes("@") || !email.includes(".")) {
     alert("Lütfen geçerli bir e-posta adresi girin!");
     return;
-  }});
-
-
-//blog section start
- const cards = document.querySelectorAll(".all-blog-posts-card");
-const pagination = document.querySelector(".pagination");
+  }
+});
 
 
 
