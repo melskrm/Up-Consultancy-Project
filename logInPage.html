@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>UpConslt</title>
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/reset.css" />
@@ -14,6 +14,46 @@
     <link rel="stylesheet" href="css/signUpPage.css">
 </head>
 <body>
-    
+    <div class="signup-section">
+    <!-- Sol taraf -->
+    <div class="signup-left">
+      <img src="images/hero/hero.svg" alt="Hero image" />
+    </div>
+
+    <!-- Sağ taraf -->
+    <div class="signup-text">
+      <h2 class="logo">UpConsIt</h2>
+      <h1 class="title">Log in</h1>
+
+      <form id="loginForm">
+        <input type="text" placeholder="Email or phone number" required />
+        
+        <div class="password-container">
+          <input type="password" id="password" placeholder="Enter password" required />
+          <span id="togglePassword" class="toggle-password">
+            <img src="images/signUpPage/Vector (1).svg" alt="toggle" />
+          </span>
+        </div>
+
+        <div class="options">
+          <label> 
+            <input type="checkbox" /> Remember me 
+          </label>
+          <a href="#">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="btn-green">Login</button>
+
+        <button type="button" class="btn-google">
+          <img src="images/signUpPage/Group 3019.svg" alt="Google" />
+          Or sign in with Google
+        </button>
+
+        <p class="signup-text">
+          Don’t have an account? <a href="signUpPage.html">Sign up now</a>
+        </p>
+      </form>
+    </div>
+  </div>
 </body>
 </html>

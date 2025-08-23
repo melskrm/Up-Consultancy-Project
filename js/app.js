@@ -68,4 +68,18 @@ subscribeBtn.addEventListener("click", function (e) {
 });
 
 
+const togglePassword = document.getElementById("togglePassword");
+const password = document.getElementById("password");
 
+togglePassword.addEventListener("click", () => {
+  if (password.type === "password") {
+    password.type = "text";
+  } else {
+    password.type = "password";
+  }
+});
+
+document.getElementById("loginForm").addEventListener("submit", (e) => {
+  e.preventDefault();
+  alert("Login işlemi denendi!");
+});

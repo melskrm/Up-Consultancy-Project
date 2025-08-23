@@ -127,7 +127,7 @@ const blogs = [
   },
 ];
 
-let currentPage = 3;
+let currentPage = 1;
 const itemPerpage = 6;
 
 const renderCards = (page) => {
