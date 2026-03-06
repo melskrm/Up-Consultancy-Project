@@ -9,3 +9,5 @@ Figma: Figma dosyasındaki tasarımı, piksellere ve renk paletine sadık kalara
 Kod: Hiçbir hazır kütüphane veya React gibi frameworkler kullanmadım. Tamamen temel HTML5, CSS3 ve JavaScript ile mantığını kurdum.
 
 Mobil Uyumluluk: Sitenin sadece bilgisayarda değil, telefonda da düzgün görünmesi için responsive tasarım üzerine bayağı kafa yordum.
+
+Canlı Demo Linki: https://melskrm.github.io/Up-Consultancy-Project/
